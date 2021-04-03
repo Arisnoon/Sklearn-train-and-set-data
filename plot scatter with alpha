@@ -1,0 +1,6 @@
+//plot scatter with alpha
+
+housing = strat_train_set.copy()
+housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
+
+//show geographic details by contrast of density 
