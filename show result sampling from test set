@@ -1,0 +1,6 @@
+//show result sampling from test set
+
+>>>strat_test_set["income_cat"].value_counts() / len(strat_test_set)
+
+//better than normal random
+//near overall data
